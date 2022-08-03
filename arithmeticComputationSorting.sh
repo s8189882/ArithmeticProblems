@@ -59,4 +59,16 @@ for key in "${!result[@]}"; do
 done
 echo ""
 
+#Read the values from the Dictionary into the array
+declare -a arrayResult
+for key in "${!result[@]}"; do
+	arrayResult[$key]=${result[$key]}
+done
+echo ""
+
+echo "Array ${arrayResult[@]} "
+echo ""
+
+
+
 

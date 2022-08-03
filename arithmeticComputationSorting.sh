@@ -99,5 +99,8 @@ for (( k=$l; k > 0; k-- )); do
 	echo " ${arrayResult[$k]}"
 done
 echo ""
+
+#Sort the results to show the Computation Value in Ascending Order
+echo "Results in Ascending order : ${arrayResult[@]} "
 echo ""
 

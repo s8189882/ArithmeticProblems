@@ -31,3 +31,9 @@ operation2=$(($((n1*$n2))+$n3))
 
 echo "Computation 2 :     a * b + c = $operation2"
 echo ""
+
+#Compute c + a / b
+operation3=$((n3+$((n1/$n2))))
+
+echo "Computation 3 :     c + a / b = $operation3"
+echo ""
